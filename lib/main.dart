@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage(
-                  '/Users/carldahlqvistthuresson/My_Card/assets/backgroundImage.jpeg'),
+                  'lib/assets/images/backgroundImage.jpeg'),
               fit: BoxFit.cover,
             ),
           ),
@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
                 child: CircleAvatar(
                   radius: 150,
                   backgroundImage: AssetImage(
-                      '/Users/carldahlqvistthuresson/My_Card/assets/profilePic.png'),
+                      'lib/assets/images/profilePic.jpeg'),
                 ),
               ),
               titleSection,
@@ -81,7 +81,7 @@ class MyApp extends StatelessWidget {
                 child: const Text('Add me on Linkedin'),
               ),
               Image.asset(
-                '/Users/carldahlqvistthuresson/My_Card/assets/Untitled.png',
+                'lib/assets/images/Untitled.jpeg',
                 width: 180,
                 height: 180,
               ),
